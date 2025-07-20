@@ -220,6 +220,11 @@ h1,h2,h3,h4,h5 {
     &.btn--yellow {
       background-color: var(--color-orange);
     }
+    &.btn:hover {
+      transition: all .3s ease;
+      background-color: #000000;
+      color: #FFF;
+    }
   }
 }
 
@@ -2817,3 +2822,11 @@ h1,h2,h3,h4,h5 {
     }
   }
 }
+
+.header-btn{
+  transition: all .3s ease;
+  &:hover{
+   text-decoration: line-through;
+   text-decoration-thickness: 1.2px;
+  }
+} 
