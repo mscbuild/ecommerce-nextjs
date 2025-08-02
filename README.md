@@ -12,7 +12,7 @@
 This repo contains a work in progress Ecommerce responsive made with Next.js, Redux, Redux-persist, Hooks, SCSS and BEM. If you like it please give it a star :)
 ## Design
 
-[This](https://www.xdguru.com/free-xd-ecommerce-ui-kit-by-iceo/) is the design of the project.
+[This](https:/[https://ecommerce-t2rn.onrender.com/)) is the design of the project.
 
 ## Available pages
 
@@ -54,3 +54,4 @@ Startup is 100% free and open-source, feel free to use with your personal and co
 
 ### 💜 Support
 If you like the template, please star this repository to inspire the team to create more stuff like this and reach more users like you!
+
