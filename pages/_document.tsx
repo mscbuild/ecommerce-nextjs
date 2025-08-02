@@ -1,60 +1,32 @@
-import { Fragment } from 'react'
-import Document, { Head, Main, NextScript, DocumentInitialProps, DocumentContext } from 'next/document'
-import { GA_TRACKING_ID } from '../utils/gtag';
+import Document, { Html, Head, Main, NextScript } from 'next/document';
 
-interface DocumentProps extends DocumentInitialProps {
-  isProduction: boolean
-}
-
-export default class CustomDocument extends Document<DocumentProps> {
-  static async getInitialProps(ctx: DocumentContext): Promise<DocumentProps> {
-    const initialProps = await Document.getInitialProps(ctx)
-
-    // Check if in production
-    const isProduction = process.env.NODE_ENV === 'production'
-
-    return {
-      ...initialProps,
-      isProduction,
-    }
-  }
-
+class MyDocument extends Document {
   render() {
-    const { isProduction } = this.props
-
     return (
-      <html lang="en">
+      <Html lang="en">
         <Head>
+          {/* Open Graph / Facebook */}
+          <meta property="og:title" content="E-commerce | shop />
+          <meta property="og:description" content="E-commerce | shop" />
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://example.com/" />
+          <meta property="og:image" content="https://example.com/preview.jpg" />
 
-          {/* We only want to add the scripts if in production */}
-          {isProduction && (
-            <Fragment>
-              {/* Global Site Tag (gtag.js) - Google Analytics */}
-              <script
-                async
-                src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
-              />
-              <script
-                dangerouslySetInnerHTML={{
-                  __html: `
-                    window.dataLayer = window.dataLayer || [];
-                    function gtag(){dataLayer.push(arguments);}
-                    gtag('js', new Date());
-
-                    gtag('config', '${GA_TRACKING_ID}', {
-                      page_path: window.location.pathname,
-                    });
-                  `,
-                }}
-              />
-            </Fragment>
-          )}
+          {/* Twitter Cards */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content="Заголовок для Twitter" />
+          <meta name="twitter:description" content="Описание для Twitter" />
+          <meta name="twitter:image" content="https://example.com/preview.jpg" />
         </Head>
         <body>
           <Main />
           <NextScript />
         </body>
-      </html>
-    )
+      </Html>
+    );
   }
 }
+
+export default MyDocument; 
+
+ 
