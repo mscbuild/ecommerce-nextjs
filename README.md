@@ -1,8 +1,13 @@
-# Updates!
+ # Ecommerce Website with NextJS.
+ ![](https://komarev.com/ghpvc/?username=mscbuild) 
+ ![](https://img.shields.io/github/license/mscbuild/ecommerce-nextjs) 
+ ![](https://img.shields.io/github/languages/code-size/mscbuild/ecommerce-nextjs)
+![](https://img.shields.io/badge/PRs-Welcome-green)
+![](https://img.shields.io/badge/code%20style-nextjs-green)
+![](https://img.shields.io/github/stars/mscbuild)
+![](https://img.shields.io/badge/Topic-Github-lighred)
+![](https://img.shields.io/website?url=https%3A%2F%2Fgithub.com%2Fmscbuild)
 
-This new version contains an integration with redux-toolkit instead of redux and it's witch Typescript :)
-
-# Next.js Ecommerce
 
 This repo contains a work in progress Ecommerce responsive made with Next.js, Redux, Redux-persist, Hooks, SCSS and BEM. If you like it please give it a star :)
 ## Design
@@ -31,4 +36,5 @@ This repo contains a work in progress Ecommerce responsive made with Next.js, Re
 - [ ] Add Facebook login
 - [ ] Add Google login
 - [ ] Add Proptypes on components
+
 - [ ] Use CSS variables instead of static colors
