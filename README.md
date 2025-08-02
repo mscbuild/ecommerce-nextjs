@@ -9,10 +9,8 @@
 ![](https://img.shields.io/website?url=https%3A%2F%2Fgithub.com%2Fmscbuild)
 
 
-This repo contains a work in progress Ecommerce responsive made with Next.js, Redux, Redux-persist, Hooks, SCSS and BEM. If you like it please give it a star :)
-## Design
-
-[This](https:/[https://ecommerce-t2rn.onrender.com/) is the design of the project.
+This repo contains a work in progress Ecommerce responsive made with Next.js, Redux, Redux-persist, Hooks, SCSS and BEM. If you like it please give it a star 
+ 
 
 ## Available pages
 
@@ -54,5 +52,6 @@ Startup is 100% free and open-source, feel free to use with your personal and co
 
 ### 💜 Support
 If you like the template, please star this repository to inspire the team to create more stuff like this and reach more users like you!
+
 
 
