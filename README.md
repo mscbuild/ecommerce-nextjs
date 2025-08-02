@@ -1,4 +1,4 @@
- # Ecommerce Website with NextJS.
+ # 🛍️ Ecommerce Website with NextJS.
  ![](https://komarev.com/ghpvc/?username=mscbuild) 
  ![](https://img.shields.io/github/license/mscbuild/ecommerce-nextjs) 
  ![](https://img.shields.io/github/languages/code-size/mscbuild/ecommerce-nextjs)
@@ -38,3 +38,4 @@ This repo contains a work in progress Ecommerce responsive made with Next.js, Re
 - [ ] Add Proptypes on components
 
 - [ ] Use CSS variables instead of static colors
+
