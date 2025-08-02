@@ -39,3 +39,18 @@ This repo contains a work in progress Ecommerce responsive made with Next.js, Re
 
 - [ ] Use CSS variables instead of static colors
 
+## :toolbox: Getting Started
+
+1. Make sure **Git** and **NodeJS** is installed.
+
+2. Clone this repository to your local computer.
+
+3. Open terminal in root directory. Run `npm install --legacy-peer-deps` or `yarn install --legacy-peer-deps`.
+
+4. Now app is fully configured 👍 and you can start using this app using `npm run dev` or `yarn dev`.
+
+### 📄 License
+Startup is 100% free and open-source, feel free to use with your personal and commercial projects.
+
+### 💜 Support
+If you like the template, please star this repository to inspire the team to create more stuff like this and reach more users like you!
