@@ -1,5 +1,5 @@
 [repo]: https://github.com/mscbuild/ecommerce-nextjs/
-[demo]: https://mscbuild.github.io/3D-graphics/
+[demo]: https://ecommerce-t2rn.onrender.com
  
  # 🛍️ Ecommerce Website with NextJS.
  ![](https://komarev.com/ghpvc/?username=mscbuild) 
